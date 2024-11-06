@@ -1,0 +1,12 @@
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: 'jdbc:mysql://49.235.155.82:3306/doglyb?useSSL=false'
+    username: doglyb
+    password: lyb12345678
+    # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
